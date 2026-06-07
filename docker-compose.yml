@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tomato-timer:
+    build: .
+    container_name: tomato-timer-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
