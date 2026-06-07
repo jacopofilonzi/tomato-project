@@ -5,7 +5,7 @@ export const dynamic = 'force-static'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Tomato Timer",
+    name: "Tomato Project",
     short_name: "Tomato",
     description: "A clean Pomodoro timer to focus and take breaks.",
     start_url: "/",

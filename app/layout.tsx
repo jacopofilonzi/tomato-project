@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Tomato Timer',
+  title: 'Tomato Project',
   description: 'A clean Pomodoro timer to focus and take breaks.',
   generator: 'v0.app',
   icons: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Tomato',
+    title: 'Tomato Project',
   },
 }
 
